@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./logo.css";
 const Logo = (props) => {
   // const appName = "Chioma's Pokedex";
 
@@ -8,7 +8,7 @@ const Logo = (props) => {
   // };
 
   return (
-    <header>
+    <header className="header">
       {/* <title appName={appName} /> */}
       <h1> {props.appName}</h1>
       <img
